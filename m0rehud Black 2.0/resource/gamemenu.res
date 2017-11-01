@@ -1,18 +1,5 @@
 "GameMenu"
 {
-	"CasualButton"
-	{
-		"label" "Casual" 
-		"command" "play_casual"
-		"subimage" ""
-	}
-	"CompetitiveButton"
-	{
-		"label" "Competitive" 
-		"command" "play_competitive"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "0"
-	}
 	"ServerBrowserButton"
 	{
 		"label" "Servers" 
@@ -22,7 +9,7 @@
 	} 
 	"DemoUI"
 	{
-		"label"			"DemoUI"
+		"label"			"Demoui"
 		"command"		"engine demoui"
 		"OnlyAtMenu" 	"1"
 	}
@@ -48,19 +35,28 @@
 	{
 		"label"			"Scoreboard"
 		"command"		"engine toggle cl_hud_minmode"
+		"OnlyInGame"	"1"
+	}
+	
+	"AdvancedSettingsButton"
+	{
+		"label"			"Adv. Settings"
+		"command"		"opentf2options"
 	}
 
 	// These buttons get positioned by the MainMenuOverride.res
 	"CreateServerButton"
 	{
-		"label" "Localhost"
+		"label" "+"
 		"command" "OpenCreateMultiplayerGameDialog"
+		"tooltip" "#GameUI_GameMenu_CreateServer"
 	}
 	"GeneralStoreButton"
 	{
 		"label"			"Shop"
 		"command"		"engine open_store"
 		"subimage"		"glyph_store"
+		"OnlyAtMenu"	"1"
 	}
 	"CharacterSetupButton"
 	{

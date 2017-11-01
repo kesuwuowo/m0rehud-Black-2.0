@@ -656,6 +656,17 @@
                 "outline"   "0"
             }
         }
+		m0refont22
+        {
+            "1"
+            {
+                "name"      "surface-medium"
+                "tall"      "22"
+                "additive"  "0"
+                "antialias"     "1"
+                "outline"   "0"
+            }
+        }
         m0refont24
         {
             "1"

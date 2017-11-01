@@ -70,7 +70,7 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"fgcolor_override"	"ProgressOffWhite"
+		"fgcolor_override"	"m0rewhite"
 	}					
 	
 	"ItemEffectMeterCount"
