@@ -72,14 +72,14 @@
 		"label"			""
 		"command"		"callvote"
 		"subimage" "icon_checkbox"
-		"OnlyInGame" "1"
+		"OnlyInGame" "0"
 	}
 	"MutePlayersButton"
 	{
 		"label"			""
 		"command"		"OpenPlayerListDialog"
 		"subimage" "glyph_muted"
-		"OnlyInGame" "1"
+		"OnlyInGame" "0"
 	}
 	"RequestCoachButton"
 	{
