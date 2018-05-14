@@ -23,9 +23,7 @@
 		"scaleImage"		"1"
 		"teambg_1"		"replay/thumbnails/material_base"
 		"teambg_2"		"../hud/tournament_panel_red"
-		"teambg_2_lodef"	"../hud/tournament_panel_red"
 		"teambg_3"		"../hud/tournament_panel_blu"
-		"teambg_3_lodef"	"../hud/tournament_panel_blu"
 		
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
@@ -35,7 +33,7 @@
 		
 		if_match
 		{
-			"visible" "0"
+			"xpos"	"9999"
 		}
 	}
 	"TimePanelProgressBar"
@@ -87,6 +85,11 @@
 		"wrap"			"0"
 		"font"			"default"
 		"fgcolor"		"255 255 255 255"
+		
+		if_match
+		{
+			"xpos"	"9999"
+		}
 	}			
 	"OvertimeBG"
 	{
@@ -112,6 +115,11 @@
 		"wrap"			"0"
 		"font"			"default"
 		"fgcolor"		"255 255 255 255"
+		
+		if_match
+		{
+			"xpos"	"9999"
+		}
 	}			
 	"SuddenDeathBG"
 	{
@@ -137,6 +145,11 @@
 		"wrap" 				"0"
 		"font" 				"m0refont12"
 		"fgcolor"			"255 255 255 255"
+		
+		if_match
+		{
+			
+		}
 	}
 	
 	"ServerTimeLimitLabelBG"
@@ -166,6 +179,11 @@
 		"wrap"			"0"
 		"font"			"default"
 		"fgcolor"		"255 255 255 255"
+		
+		if_match
+		{
+			"xpos"	"9999"
+		}
 	}	
 	"SetupBG"
 	{

@@ -27,6 +27,12 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
 		
+		if_match
+		{
+			"xpos"				"12"
+			"ypos"				"-59"
+		}
+		
 		"TimePanelValue"
 		{
 			"ControlName"	"CExLabel"
@@ -45,9 +51,7 @@
 			
 			if_match
 			{
-				"font"			"m0refont12"
-				"xpos"			"13"
-				"ypos"			"65"
+				"font"		"m0refont12"
 			}
 		}	
 	}
@@ -95,27 +99,31 @@
 		"delta_lifetime"	"1.5"
 		"delta_item_font"	"HudFontMedium"
 		
+		if_match
+		{
+			"xpos"				"50"
+			"ypos"				"-59"
+		}
+		
 		"TimePanelValue"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"	"TimePanelValue"
-			"font"		"m0refont16"
-			"fgcolor"	"255 255 255 255"
-			"xpos"		"10"
-			"ypos"		"64"
-			"zpos"		"3"
-			"wide"		"40"
-			"tall"		"20"
-			"visible"	"1"
-			"enabled"	"1"
+			"fieldName"		"TimePanelValue"
+			"font"			"m0refont16"
+			"fgcolor"		"255 255 255 255"
+			"xpos"			"10"
+			"ypos"			"64"
+			"zpos"			"3"
+			"wide"			"40"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
 			"textAlignment"	"center"
-			"labelText"	"0:00"
+			"labelText"		"0:00"
 			
 			if_match
 			{
-				"font"			"m0refont12"
-				"xpos"			"9"
-				"ypos"			"65"
+				"font"		"m0refont12"
 			}
 		}	
 	}
