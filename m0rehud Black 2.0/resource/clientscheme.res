@@ -1,9 +1,17 @@
-﻿Scheme
+#base "../resource/crosshairs/Crosshair Fonts.res"
+//  _________________________
+// |      m0rehud black      |
+//  ЇЇЇЇЇЇЇЇЇЇЇЇЇЇЇЇЇЇЇЇЇЇЇЇЇ
+Scheme
 {
-	Colors
+    //////////////////////// COLORS ///////////////////////////
+    Colors
     {
-        //m0recolors
-        "m0retrans"             "0 0 0 130"
+		//////////////////////////////////////////////////
+        /////////////////M0REBLACK COLORS/////////////////
+		//////////////////////////////////////////////////
+		
+		"m0retrans"             "0 0 0 130"
         "m0reblack"             "0 0 0 170"
         "m0reshadow"            "0 0 0 125"
 		"m0regrey"              "150 150 150 255"
@@ -14,8 +22,11 @@
         "m0regreen"             "102 255 0 255"
 		"m0reyellow"            "255 240 10 255"
         
-        //base colors
-		"Orange"			"178 82 22 255"
+        //////////////////////////////////////////////////
+        ///////////////////BASE COLORS////////////////////
+		//////////////////////////////////////////////////
+		
+        "Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
 		"LightOrange"		"188 112 0 128"
 		"GoalOrange"		"255 133 0"
@@ -206,10 +217,8 @@
 		"UpgradeDisabledBg"		"79 77 68 255"
 	}
 
-	///////////////////// BASE SETTINGS ////////////////////////
-	// default settings for all panels
-	// controls use these to determine their settings
-	BaseSettings
+    ///////////////////// BASE SETTINGS ////////////////////////
+    BaseSettings
 	{
 		// vgui_controls color specifications
 		ReplayBrowser.BgColor								"DarkBrown"
@@ -451,10 +460,10 @@
 		"ButtonsSC"		"materials/vgui/fonts/buttons_sc.vbf"
 	}
 
-	
-	Fonts
-	{	
-		"Symbols"
+    //////////////////////// FONTS /////////////////////////////
+    Fonts
+    {
+        "Symbols"
 		{
 			"1"
 			{
@@ -464,55 +473,7 @@
 				"antialias"     "1"
 			}
 		}
-		"CrossHairTLR"
-        {
-            "1"
-            {
-                "name"          "Symbol"
-                "tall"          "28"
-                "weight"        "0"
-                "additive"      "0"
-                "outline"       "1"
-            }
-        }
-        "CrossHairTLRShadow"
-        {
-            "1"
-            {
-                "name"          "Symbol"
-                "tall"          "28"
-                "weight"        "0"
-                "additive"      "0"
-                "outline"       "1"
-                "blur"          "1"
-            }
-        }
-        CrossHairNormal
-        {
-            "1"
-            {
-                "name"          "tf2cross"
-                "tall"          "11"
-                "weight"        "0"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "0"
-            }
-        }
-        CrossHairNormalShadow
-        {
-            "1"
-            {
-                "name"          "tf2cross"
-                "tall"          "11"
-                "weight"        "0"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "0"
-                "blur"          "1"
-            }
-        }
-        Coolvetica
+		Coolvetica
         {
             "1"
             {
@@ -816,6 +777,248 @@
             {
                 "name"      "Surface Sharpened Medium"
                 "tall"      "52"
+                "additive"  "0"
+                "antialias"     "1"
+                "outline"   "0"
+            }
+        }
+		surface8
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"8"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		surface9
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"9"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		surface10
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		surface11
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"11"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		surface12
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		surface13
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"13"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		surface14
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		surface15
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"15"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		surface16
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		surface18
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		surface18Outline
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"1"
+			}
+		}
+		surface20
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		surface23
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"23"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		surface24
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		surface26
+		{
+			"1"
+			{
+				"name"		"Surface-Medium"
+				"tall"		"26"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+        surface28
+        {
+            "1"
+            {
+                "name"      "Surface Sharpened Medium"
+                "tall"      "28"
+                "additive"  "0"
+                "antialias"     "1"
+                "outline"   "0"
+            }
+        }
+        surface32
+        {
+            "1"
+            {
+                "name"      "Surface Sharpened Medium"
+                "tall"      "32"
+                "additive"  "0"
+                "antialias"     "1"
+                "outline"   "0"
+            }
+        }
+        surface36
+        {
+            "1"
+            {
+                "name"      "Surface Sharpened Medium"
+                "tall"      "36"
+                "additive"  "0"
+                "antialias"     "1"
+                "outline"   "0"
+            }
+        }
+        surface40
+        {
+            "1"
+            {
+                "name"      "Surface Sharpened Medium"
+                "tall"      "40"
+                "additive"  "0"
+                "antialias"     "1"
+                "outline"   "0"
+            }
+        }
+        surface46
+        {
+            "1"
+            {
+                "name"      "Surface Sharpened Medium"
+                "tall"      "52"
+                "additive"  "0"
+                "antialias"     "1"
+                "outline"   "0"
+            }
+        }
+        surface60
+        {
+            "1"
+            {
+                "name"      "Surface Sharpened Medium"
+                "tall"      "60"
+                "additive"  "0"
+                "antialias"     "1"
+                "outline"   "0"
+            }
+        }
+        surface72
+        {
+            "1"
+            {
+                "name"      "Surface Sharpened Medium"
+                "tall"      "72"
                 "additive"  "0"
                 "antialias"     "1"
                 "outline"   "0"
@@ -3317,11 +3520,11 @@
 				"antialias" "1"
 			}
 		}
-	}
-	
-	Borders
-	{
-	    m0reborder
+    }
+
+    Borders
+    {
+        m0reborder
         {
             "bordertype"            "scalable_image"
             "backgroundtype"        "2"
@@ -6025,11 +6228,11 @@
 				}
 			}
 		}
-	}
-	
-	CustomFontFiles
-	{
-		"1" "resource/tf.ttf"
+    }
+
+    CustomFontFiles
+    {
+        "1" "resource/tf.ttf"
 		"2" "resource/tfd.ttf"
 		"3"
 		{
@@ -6086,18 +6289,14 @@
 			{
 				"range" "0x0000 0xFFFF"
 			}
-		}			
-		"7" 
+		}
+		"7" "resource/ocra.ttf"
+		"8" 
         {
             "font" "resource/fonts/Surface_Medium.otf"
             "name" "Surface-Medium"
         }   
-        "8" 
-        {
-            "font" "resource/fonts/Surface_Bold.otf"
-            "name" "Surface-Bold"
-        }   
-        "9" 
+		"9" 
         {
             "font" "resource/fonts/Surface_Sharpened.ttf"
             "name" "Surface Sharpened Medium"
@@ -6113,14 +6312,9 @@
             "name" "Coolvetica"
         }
         "12"
-        {
-            "font" "resource/fonts/tf2cross.ttf"
-            "name" "tf2cross"
-        } 
-		"13"
 		{
 			"font" "resource/fonts/heydings_icons.ttf"
 			"name" "Heydings Icons"
 		}
-	}
+    }
 }

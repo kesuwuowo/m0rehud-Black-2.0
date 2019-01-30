@@ -551,10 +551,7 @@
      
 		if_mvm
 		{
-			"xpos"  "25"
-			"ypos"  "415"
-			"ypos_minmode"	"366"
-			    "tall_minmode"	"72"
+			"visible"	   "0"
 		}
 	}
 	"ClassImage"
@@ -911,10 +908,8 @@
 	       
 		if_mvm
 		{
-			"xpos_minmode" 		"25"
-			"ypos"			"410"
-			"ypos_minmode"		"362"
-			"wide_minmode"		"556"
+			"xpos_minmode" 		"9999"
+			"xpos" 				"9999"
 		}
 	       
 		"KillsLabel"
